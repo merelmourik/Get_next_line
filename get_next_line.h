@@ -5,8 +5,8 @@
 /*                                                     +:+                    */
 /*   By: merelmourik <merelmourik@student.42.fr>      +#+                     */
 /*                                                   +#+                      */
-/*   Created: 2019/12/28 10:33:59 by merelmourik    #+#    #+#                */
-/*   Updated: 2020/01/15 17:59:26 by mmourik       ########   odam.nl         */
+/*   Created: 2019/12/28 10:33:59 by merelmourik   #+#    #+#                 */
+/*   Updated: 2021/11/18 06:59:29 by merelmourik   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,8 @@
 # include <sys/uio.h>
 # include <unistd.h>
 # include <stdlib.h>
+# include <stdio.h>
+# include <fcntl.h>
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 6
